@@ -2,6 +2,12 @@
 name = "lazy-mmdb"
 version = "1.0.2"
 edition = "2024"
+description = "A zero-maintenance, self-updating GeoIP lookup server that provides a fast query API over a Unix Domain Socket."
+license = "MIT"
+repository = "https://github.com/canmi21/lazy-mmdb"
+readme = "README.md"
+keywords = ["network", "server", "unix", "socket", "mmdb"]
+categories = ["network-programming", "web-programming", "development-tools"]
 
 [[bin]]
 name = "lazy-mmdb"
