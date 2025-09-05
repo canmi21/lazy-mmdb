@@ -1,6 +1,6 @@
 [package]
 name = "lazy-mmdb"
-version = "1.0.3"
+version = "1.0.4"
 edition = "2024"
 description = "A zero-maintenance, self-updating GeoIP lookup server that provides a fast query API over a Unix Domain Socket."
 license = "MIT"
