@@ -644,7 +644,7 @@ dependencies = [
 
 [[package]]
 name = "lazy-mmdb"
-version = "1.0.2"
+version = "1.0.3"
 dependencies = [
  "dirs",
  "dotenvy",
