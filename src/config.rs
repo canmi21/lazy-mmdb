@@ -20,7 +20,7 @@ impl Config {
     pub fn from_env() -> Self {
         let default_db_path = dirs::home_dir()
             .unwrap_or_else(|| PathBuf::from("/tmp"))
-            .join(".lazy-mmdb");
+            .join("lazy-mmdb");
 
         let db_path = env::var("DB_PATH")
             .map(PathBuf::from)
