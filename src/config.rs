@@ -28,7 +28,7 @@ impl Config {
 
         let socket_path = env::var("SOCKET_PATH")
             .map(PathBuf::from)
-            .unwrap_or_else(|_| PathBuf::from("/tmp/lazy-mmdb.sock"));
+            .unwrap_or_else(|_| PathBuf::from("/tmp/lazy-mmdb/lazy-mmdb.sock"));
 
         let update_hours: u64 = env::var("UPDATE_INTERVAL_HOURS")
             .unwrap_or_else(|_| "24".to_string())
